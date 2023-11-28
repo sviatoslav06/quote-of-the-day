@@ -1,0 +1,20 @@
+.Buttons {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Buttons button {
+    font-size: large;
+    background-color: rgb(47, 157, 253);
+    border: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: all;
+}
+
+.Buttons button:hover {
+    box-shadow: 0 0 6px;
+}
